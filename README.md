@@ -57,3 +57,25 @@ Visita Venezia/
 ├── QuizView.swift            # Upcoming quiz feature placeholder
 └── SavedView.swift           # Upcoming saved locations placeholder
 ```
+## Screenshots
+Screenshots of the app in light mode taken from an iOS Simulator (iPhone 17 Pro)
+<p align="center">
+  <img width="200" alt="main" src="https://github.com/user-attachments/assets/40c778c1-a6ed-476b-ab28-4c013770a549" />
+  <img width="200" alt="mainzoom" src="https://github.com/user-attachments/assets/bd95c19f-fb2f-40dc-b959-c22f3e026a36" />
+  <img width="200" alt="list" src="https://github.com/user-attachments/assets/61018b98-4694-40c2-8f1c-c7423f7c50c5" />
+  <img width="200" alt="gamemenu" src="https://github.com/user-attachments/assets/e2f6803b-c4fa-4d7d-be64-f5cfd2fea050" />
+  <img width="200" alt="history" src="https://github.com/user-attachments/assets/33597d19-e698-4f77-8a3b-c512d56da0c7" />
+  <img width="200" alt="discover" src="https://github.com/user-attachments/assets/5bd973e8-4338-4419-88ed-b9403f9ecf6d" />
+  <img width="200" alt="funfact" src="https://github.com/user-attachments/assets/5df20be9-2285-44f1-8d5b-546a9bc26dbd" />
+</p>
+
+Screenshots of the app in dark mode taken from a physical iPhone (iPhone 17)
+
+<p align="center">
+  <img width="200" alt="mainB" src="https://github.com/user-attachments/assets/e084bde0-af29-4749-bc17-168653c4bdf0" />
+  <img width="200" alt="mainzoomB" src="https://github.com/user-attachments/assets/988c918b-cbce-4523-b743-e3cbcdaaca7b" />
+  <img width="200" alt="listB" src="https://github.com/user-attachments/assets/74240b4f-d001-4a8a-8c49-02088553cf61" />
+  <img width="200" alt="menuB" src="https://github.com/user-attachments/assets/508b4c21-0141-4ea8-9ed5-84b97718995a" />
+  <img width="200" alt="historyB" src="https://github.com/user-attachments/assets/3fc46bef-7eb5-41fc-a400-e36de5417dae" />
+  <img width="200" alt="discoverB" src="https://github.com/user-attachments/assets/27d9fe70-c49f-41e7-9782-92d37c12e9ff" />
+</p>
