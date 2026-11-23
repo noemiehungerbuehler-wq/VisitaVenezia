@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8BEC81526C566B700C2349F /* Visita_VeneziaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC81426C566B700C2349F /* Visita_VeneziaApp.swift */; };
+		A8BEC81926C566B900C2349F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BEC81826C566B900C2349F /* Assets.xcassets */; };
+		A8BEC81C26C566B900C2349F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BEC81B26C566B900C2349F /* Preview Assets.xcassets */; };
+		A8BEC82426C5677700C2349F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC82326C5677700C2349F /* MapView.swift */; };
+		A8BEC82626C5678400C2349F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC82526C5678400C2349F /* ListView.swift */; };
+		A8BEC82826C5679200C2349F /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC82726C5679200C2349F /* SavedView.swift */; };
+		A8BEC82A26C5679D00C2349F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC82926C5679D00C2349F /* SettingsView.swift */; };
+		A8BEC82C26C567D800C2349F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC82B26C567D800C2349F /* Location.swift */; };
+		A8BEC82E26C5687E00C2349F /* GameMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC82D26C5687E00C2349F /* GameMenuView.swift */; };
+		A8BEC83026C5689400C2349F /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC82F26C5689400C2349F /* HistoryView.swift */; };
+		A8BEC83326C568AA00C2349F /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC83226C568AA00C2349F /* QuizView.swift */; };
+		A8BEC83526C568B500C2349F /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC83426C568B500C2349F /* DiscoverView.swift */; };
+		A8BEC83726C568BD00C2349F /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEC83626C568BD00C2349F /* FunFactsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8BEC81126C566B700C2349F /* Visita Venezia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Visita Venezia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BEC81426C566B700C2349F /* Visita_VeneziaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visita_VeneziaApp.swift; sourceTree = "<group>"; };
+		A8BEC81826C566B900C2349F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8BEC81B26C566B900C2349F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8BEC81D26C566B900C2349F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BEC82326C5677700C2349F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A8BEC82526C5678400C2349F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A8BEC82726C5679200C2349F /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		A8BEC82926C5679D00C2349F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A8BEC82B26C567D800C2349F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A8BEC82D26C5687E00C2349F /* GameMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMenuView.swift; sourceTree = "<group>"; };
+		A8BEC82F26C5689400C2349F /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		A8BEC83226C568AA00C2349F /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		A8BEC83426C568B500C2349F /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		A8BEC83626C568BD00C2349F /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BEC80E26C566B700C2349F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8BEC80826C566B700C2349F = {
+			isa = PBXGroup;
+			children = (
+				A8BEC81326C566B700C2349F /* Visita Venezia */,
+				A8BEC81226C566B700C2349F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BEC81226C566B700C2349F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BEC81126C566B700C2349F /* Visita Venezia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BEC81326C566B700C2349F /* Visita Venezia */ = {
+			isa = PBXGroup;
+			children = (
+				A8BEC81426C566B700C2349F /* Visita_VeneziaApp.swift */,
+				A8BEC82326C5677700C2349F /* MapView.swift */,
+				A8BEC82526C5678400C2349F /* ListView.swift */,
+				A8BEC82726C5679200C2349F /* SavedView.swift */,
+				A8BEC82926C5679D00C2349F /* SettingsView.swift */,
+				A8BEC83126C5689A00C2349F /* Games */,
+				A8BEC81826C566B900C2349F /* Assets.xcassets */,
+				A8BEC82B26C567D800C2349F /* Location.swift */,
+				A8BEC81D26C566B900C2349F /* Info.plist */,
+				A8BEC81A26C566B900C2349F /* Preview Content */,
+			);
+			path = "Visita Venezia";
+			sourceTree = "<group>";
+		};
+		A8BEC81A26C566B900C2349F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A8BEC81B26C566B900C2349F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8BEC83126C5689A00C2349F /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				A8BEC82D26C5687E00C2349F /* GameMenuView.swift */,
+				A8BEC82F26C5689400C2349F /* HistoryView.swift */,
+				A8BEC83226C568AA00C2349F /* QuizView.swift */,
+				A8BEC83426C568B500C2349F /* DiscoverView.swift */,
+				A8BEC83626C568BD00C2349F /* FunFactsView.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BEC81026C566B700C2349F /* Visita Venezia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BEC82026C566B900C2349F /* Build configuration list for PBXNativeTarget "Visita Venezia" */;
+			buildPhases = (
+				A8BEC80D26C566B700C2349F /* Sources */,
+				A8BEC80E26C566B700C2349F /* Frameworks */,
+				A8BEC80F26C566B700C2349F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Visita Venezia";
+			productName = "Visita Venezia";
+			productReference = A8BEC81126C566B700C2349F /* Visita Venezia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BEC80926C566B700C2349F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A8BEC81026C566B700C2349F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = A8BEC80C26C566B700C2349F /* Build configuration list for PBXProject "Visita Venezia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8BEC80826C566B700C2349F;
+			productRefGroup = A8BEC81226C566B700C2349F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BEC81026C566B700C2349F /* Visita Venezia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BEC80F26C566B700C2349F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BEC81C26C566B900C2349F /* Preview Assets.xcassets in Resources */,
+				A8BEC81926C566B900C2349F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BEC80D26C566B700C2349F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BEC82626C5678400C2349F /* ListView.swift in Sources */,
+				A8BEC83026C5689400C2349F /* HistoryView.swift in Sources */,
+				A8BEC83326C568AA00C2349F /* QuizView.swift in Sources */,
+				A8BEC82826C5679200C2349F /* SavedView.swift in Sources */,
+				A8BEC82A26C5679D00C2349F /* SettingsView.swift in Sources */,
+				A8BEC82426C5677700C2349F /* MapView.swift in Sources */,
+				A8BEC81526C566B700C2349F /* Visita_VeneziaApp.swift in Sources */,
+				A8BEC83726C568BD00C2349F /* FunFactsView.swift in Sources */,
+				A8BEC83526C568B500C2349F /* DiscoverView.swift in Sources */,
+				A8BEC82C26C567D800C2349F /* Location.swift in Sources */,
+				A8BEC82E26C5687E00C2349F /* GameMenuView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8BEC81E26C566B900C2349F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8BEC81F26C566B900C2349F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8BEC82126C566B900C2349F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Visita Venezia/Preview Content\"";
+				DEVELOPMENT_TEAM = X7ZN2VHRVB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Visita Venezia/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noemiehungerbuehler.VisitaVenezia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8BEC82226C566B900C2349F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Visita Venezia/Preview Content\"";
+				DEVELOPMENT_TEAM = X7ZN2VHRVB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Visita Venezia/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noemiehungerbuehler.VisitaVenezia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BEC80C26C566B700C2349F /* Build configuration list for PBXProject "Visita Venezia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BEC81E26C566B900C2349F /* Debug */,
+				A8BEC81F26C566B900C2349F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BEC82026C566B900C2349F /* Build configuration list for PBXNativeTarget "Visita Venezia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BEC82126C566B900C2349F /* Debug */,
+				A8BEC82226C566B900C2349F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8BEC80926C566B700C2349F /* Project object */;
+}
